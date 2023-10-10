@@ -1,4 +1,22 @@
+1 安装npm
+https://nodejs.org/en
+
+2 安装git并且配置ssh
+1) https://git-scm.com/download/win
+2) https://www.cnblogs.com/OnlyAR/p/16155406.html
+
+3 安装hexo命令
+npm install hexo-cli -g
+
+4 在项目路径下操作命令
 npm install
 git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 
+5 新建文章，多出一个文件夹用于放图片
+hexo new post "article title"
 
+6 基本命令
+hexo generate 生成
+hexo clean 清楚
+hexo deploy 发布到github
+hexo server 生成静态文件

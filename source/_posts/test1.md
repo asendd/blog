@@ -7,3 +7,4 @@ categories: test
 
 ![](R-C.jpeg)
 
+这是一个测试文章，哈哈
